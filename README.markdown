@@ -20,17 +20,17 @@ port_digital_twin/
 │   ├── boat.py          # Boat class and logic
 │   ├── trip.py          # Trip scheduling and simulation
 │   └── optimizer.py     # (TBD) Optimization logic
+├── docs/
+│   └── index.html
 ```
 
 ## Requirements
 
 - Python 3.8+
-- `coloredlogs`
-
-Install with:
+- Install with:
 
 ```bash
-pip install coloredlogs
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -40,6 +40,10 @@ Run the simulation:
 ```bash
 python main.py
 ```
+
+## Docs
+
+Open the index.html file inside docs folder.
 
 ## License
 
